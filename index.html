@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -13,17 +14,17 @@
         <div class="todocont">
             <h1 class="heading1">TO-Do List<img class="bookpen" src="img/notebook.jpg" alt=""> </h1>
             <div class="addcontent">
-                <input class="textbox" type="text" placeholder="Add Your text">
-                <button class="btn">Add</button>
+                <input id="textbox" type="text" placeholder="Add Your text">
+                <button class="btn" onclick="addContent()">Add</button>
             </div>
-            <ul class="listcontainer">
-                <li class="checked">Task1</li>
+            <ul id="listcontainer">
+                <!--<li class="checked">Task1</li>
                 <li>Task1</li>
-                <li>Task1</li>
+                <li>Task1</li>-->
             </ul>
         </div>
     </div>
-   
+   <script src="script.js"></script>
 </body>
 
 </html>
